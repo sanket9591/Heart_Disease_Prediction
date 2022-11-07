@@ -103,7 +103,7 @@
                                             Age </label></td>
                                     <td >
                                             <input type="number" class="hd-number-width" name="a" min="29" max="77" step="1" style="width: 80px; text-align: center; margin-left: 40px;"
-                                                   value="29" id="nAge2"  />
+                                                   value="29" id="nAge2" required='required' />
                                         </td>
                                 </tr>
                                     <tr>
@@ -111,7 +111,7 @@
                                                 Sex (0=female,1=male)</label></td>
                                         <td >
                                                 <input type="number" class="hd-number-width" name="b" min="0" max="1" step="1" style="width: 80px; text-align: center;margin-left: 40px;"
-                                                       value="0" id="nSex2" />
+                                                       value="0" id="nSex2" required='required' />
                                             </td>
                                     </tr>
                                     <tr>
@@ -119,14 +119,14 @@
                                           Chest Pain Type (0=typical angina, 1=atypical angina, 2=non-angina, 3=asymptomatic angina)</label></td>
                                       <td>
                                               <input type="number" class="hd-number-width" name="c" min="0" max="3" step="1"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                     value="0" id="nCp2" />
+                                                     value="0" id="nCp2" required='required' />
                                           </td>
                                   </tr>
                                     <tr>
                                         <td><label>Resting Blood Pressure (94 - 200 mmHg)</label></td>
                                         <td>
                                            <input type="number" class="hd-number-width" name="d" min="94" max="200" step="all"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                       value="94" id="nRestbp2" />
+                                                       value="94" id="nRestbp2" required='required'/>
                                         </td>
                                     </tr>
                                     <tr>
@@ -134,7 +134,7 @@
                                           Serum Cholestrol (in mg\dl)</label></td>
                                       <td>
                                               <input type="number" class="hd-number-width" name="e" min="126" max="564" step="all"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                     value="126" id="nScp2"/>
+                                                     value="126" id="nScp2" required='required'/>
                                           </td>
                                   </tr>
                                   <tr>
@@ -142,7 +142,7 @@
                                         Fasting Blood Sugar>120mg\dl (1=true;0=false)</label></td>
                                     <td >
                                             <input type="number" class="hd-number-width" name="f" min="0" max="1" step="all"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                   value="0" id="nFbs2" />
+                                                   value="0" id="nFbs2" required='required' />
                                       </td>
                                 </tr>
                                 <tr>
@@ -150,7 +150,7 @@
                                       Resting Electrocardiographic Results (0,1,2)</label></td>
                                   <td >
                                           <input type="number" class="hd-number-width" name="g" min="0" max="2" step="all"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                 value="0" id="nRec2"  />
+                                                 value="0" id="nRec2" required='required' />
                                   </td>
                               </tr>
                                     <tr>
@@ -158,7 +158,7 @@
                                             Thalium Stress Test Maximum Heart Rate achieved(71 - 202)</label></td>
                                         <td >
                                                 <input type="number" class="hd-number-width" name="h" min="71" max="202" step="all"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                       value="71" id="nThalach2" />
+                                                       value="71" id="nThalach2" required='required'/>
                                             </td>
                                     </tr>
                                     <tr>
@@ -166,7 +166,7 @@
                                           Exercise Induced Angina(1=yes;0-no)</label></td>
                                       <td>
                                               <input type="number" class="hd-number-width" name="i" min="0" max="1" step="all"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                     value="0" id="nEia2" />
+                                                     value="0" id="nEia2" required='required' />
                                       </td>
                                   </tr>
                                   <tr>
@@ -174,7 +174,7 @@
                                       ST depression induced by exercise relative to rest</label></td>
                                     <td>
                                             <input type="number" class="hd-number-width" name="j" min="0" max="6.2" step="0.1"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                   value="0" id="nSt2"  />
+                                                   value="0" id="nSt2" required='required' />
                                         </td>
                                 </tr>
                                     
@@ -184,7 +184,7 @@
                                            Slope of Peak Exercise ST Segment (0=flat or downsloping, 1=upsloping,2)</label></td>
                                         <td>
                                                 <input type="number" class="hd-number-width" name="k" min="0" max="2" step="1"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                       value="0" id="nSlope2"  />
+                                                       value="0" id="nSlope2" required='required' />
                                         </td>
                                     </tr>
                                     <tr>
@@ -192,7 +192,7 @@
                                           Number of Major Vessels Colored by Fluoroscopy (0 - 3)</label></td>
                                       <td>
                                               <input type="number" class="hd-number-width" name="l" min="0" max="3" step="1"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                     value="0" id="nMv2"  />
+                                                     value="0" id="nMv2" required='required' />
                                           </td>
                                   </tr>
                                     <tr>
@@ -200,7 +200,7 @@
                                             Thalium Test: (0=normal or fixed defect, 1=reversible defect)</label></td>
                                         <td >
                                                 <input type="number" class="hd-number-width" name="m" min="1" max="3" step="1"style="width: 80px; text-align: center;margin-left: 40px;"
-                                                       value="0" id="nThal2"  />
+                                                       value="0" id="nThal2" required='required' />
                                         </td>
                                     </tr>
           
